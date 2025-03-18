@@ -198,7 +198,7 @@ const App = () => {
   const currentTheme = darkMode ? theme.dark : theme.light;
 
   return (
-    <div className={`min-h-screen transition-colors duration-300 ${currentTheme.background} ${currentTheme.text}`}>
+    <div className={`flex flex-col min-h-screen transition-colors duration-300 ${currentTheme.background} ${currentTheme.text}`}>
       {/* Header */}
       <motion.div 
         className={`px-6 py-4 ${currentTheme.cardBg} shadow-lg flex justify-between items-center`}
@@ -742,7 +742,7 @@ const App = () => {
 
       {/* Footer */}
       <motion.footer 
-        className={`mt-12 py-6 ${currentTheme.secondaryBg} border-t ${currentTheme.border}`}
+        className={`mt-auto py-6 ${currentTheme.secondaryBg} border-t ${currentTheme.border}`}
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 0.5 }}
@@ -757,7 +757,7 @@ const App = () => {
           
           <div className="flex items-center space-x-6">
             <motion.a
-              href="https://github.com"
+              href="https://github.com/Mahrukh-Adeel/GitHub-Insights-Dashboard/"
               target="_blank"
               rel="noopener noreferrer"
               className={`${currentTheme.textSecondary} flex items-center hover:text-purple-400 transition-colors`}
