@@ -1,7 +1,3 @@
-Below is a sample README file for your GitHub Insights Dashboard project. It’s concise, professional, and includes the key sections typically expected in a GitHub README.
-
----
-
 # GitHub Insights Dashboard
 
 A React-based application that provides real-time insights into GitHub user profiles and repositories with interactive visualizations and a custom purple-themed UI.
