@@ -1,6 +1,6 @@
 # GitHub Insights Dashboard
 
-A React-based application that provides real-time insights into GitHub user profiles and repositories with interactive visualizations and a custom purple-themed UI.
+A React-based application that provides real-time insights into GitHub user profiles and repositories with interactive visualizations and a custom purple-themed UI. [Check it out](https://github-insights-dashboard.netlify.app/)
 
 ## Overview
 
